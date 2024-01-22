@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/141c4d9e77.js" crossorigin="anonymous"></script>
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
@@ -23,13 +25,54 @@
 <body class="font-manrope">
 
     <!-- Header Starts -->
-    <header class="container mx-auto">
+    <header class="container mx-auto pt-3 pb-10 lg:pt-12 lg:pb-24">
+
+        <!-- Navbar Section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-2xl font-extrabold lg:text-4xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal space-x-9">
+                        <li><a class="text-[#FF4240] text-base font-bold m-auto">Home</a></li>
+                        <li><a class="text-[#424247] text-base m-auto">About</a></li>
+                        <li><a class="text-[#424247] text-base m-auto">Pages</a></li>
+                        <li><a class="text-[#424247] text-base m-auto">Blog</a></li>
+                        <li><a class="text-[#424247] text-base m-auto">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="text-xl mr-6 hidden lg:inline"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a
+                        class="text-white bg-[#FF4240] border rounded-lg border-[#FF4240] duration-300 hover:text-[#FF4240] hover:bg-white px-4 py-2 lg:px-6 lg:py-4">Get
+                        Ticket</a>
+                </div>
+            </div>
+        </nav>
 
     </header>
 
     <!-- Main Starts -->
     <main class="container mx-auto">
-        
+
     </main>
 
     <!-- Footer Starts -->
